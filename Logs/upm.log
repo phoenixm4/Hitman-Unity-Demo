@@ -1,0 +1,43 @@
+[2026-10-23T19:57:02.031Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 57267 --ipc-path /tmp/Unity-Upm-57267.sock -l 2 --log-file '/Users/phm/Downloads/Coursework/gameDev with GenAi/Unity Projects/FinalProject V1.0/Logs/upm.log'
+[2026-10-23T19:57:02.051Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-57267.sock).
+[2026-10-23T19:57:02.051Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-57267.
+[2026-10-23T19:57:03.827Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:03.893Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-23T19:57:03.901Z][INFO] config:project:get-registries --> 200 (8 ms)
+[2026-10-23T19:57:03.990Z][INFO] project:list-packages --> 200 (164 ms)
+[2026-10-23T19:57:04.463Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:04.644Z][INFO] project:list-packages --> 200 (181 ms)
+[2026-10-23T19:57:08.136Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:08.168Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:08.242Z][INFO] project:list-packages --> 200 (106 ms)
+[2026-10-23T19:57:08.285Z][INFO] project:list-packages --> 200 (117 ms)
+[2026-10-23T19:57:08.894Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:08.906Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:09.035Z][INFO] project:list-packages --> 200 (142 ms)
+[2026-10-23T19:57:09.050Z][INFO] project:list-packages --> 200 (144 ms)
+[2026-10-23T19:57:09.140Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-23T19:57:09.143Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-10-23T19:57:11.717Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:11.858Z][INFO] project:list-packages --> 200 (142 ms)
+[2026-10-23T19:57:12.407Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-10-23T19:57:12.939Z][INFO] packages:get-packageinfo --> 200 (532 ms)
+[2026-10-23T19:57:15.433Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-23T19:57:16.821Z][INFO] project:list-packages --> 200 (1388 ms)
+[2026-10-23T20:50:26.073Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy"
+}
+[2026-10-23T20:50:26.667Z][INFO] packages:get-packageinfo --> 200 (595 ms)

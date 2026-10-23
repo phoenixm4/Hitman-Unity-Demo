@@ -1,0 +1,47 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix b163118752e8a4c1497228bc75cff51e
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file /Users/phm/Downloads/Coursework/gameDev with GenAi/Unity Projects/FinalProject V1.0/Logs/UDS-Service.log
+  --debug-log 2
+  -name Unity.DataStore
+
+Initialising UDS system complete:
+  - System type: Service
+  - Resource namespace: b163118752e8a4c1497228bc75cff51e
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+Starting Unity Data Store Application
+[Error] Failed to remove data for hash c73196a21a68a988507058a5b81fe035. Failure received from service
+ #2 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #3 uds_process_command(uds_system_t*, uds_command_t*)
+ #4 uds::ServiceCommandListener::ProcessNextCommand()
+ #5 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #6 uds::Service::ExecuteServiceLoop()
+ #7 main
+ #8 start
+
+[Error] Failed to remove data for hash 3aefc71cc9a997d21addb7446a8b8427. Failure received from service
+ #2 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #3 uds_process_command(uds_system_t*, uds_command_t*)
+ #4 uds::ServiceCommandListener::ProcessNextCommand()
+ #5 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #6 uds::Service::ExecuteServiceLoop()
+ #7 main
+ #8 start
+
+[Error] Failed to remove data for hash b0256a77a87a924cbf0e49a87805211b. Failure received from service
+ #2 process_remove_multiple_command(uds_system_t*, uds_command_t*)
+ #3 uds_process_command(uds_system_t*, uds_command_t*)
+ #4 uds::ServiceCommandListener::ProcessNextCommand()
+ #5 uds::ServiceCommandListener::ExecuteCommandListenerLoop()
+ #6 uds::Service::ExecuteServiceLoop()
+ #7 main
+ #8 start
+
